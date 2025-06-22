@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { RegistrationContext } from "./RegistrationContextContext";
+import { createContext, useState } from "react";
+
+export const RegistrationContext = createContext();
 
 export const RegistrationProvider = ({ children }) => {
 	const [registrations, setRegistrations] = useState([]);
