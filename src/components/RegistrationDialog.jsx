@@ -28,6 +28,7 @@ const RegistrationDialog = ({ open, onClose }) => {
 				<TextField
 					fullWidth
 					label="Namn"
+					color="blue"
 					id="name"
 					margin="normal"
 					value={form.name}
